@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FroggyNews",
+    "slug": "FroggyNews",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#66ffe0"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.tinycoder2.FroggyNews"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
